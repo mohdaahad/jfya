@@ -1,5 +1,9 @@
 import React from 'react';
-
+import pilar1 from "../image/pilar-1.jpg"
+import pilar2 from "../image/pilar-2.jpg"
+import pilar3 from "../image/pilar-3.jpg"
+import pilar4 from "../image/pilar-4.jpg"
+import pilar5 from "../image/pilar-5.jpg"
 const FivePillarsSection = () => {
   return (
     <section className="section" data-id="c3b0019" data-element_type="section">
@@ -27,7 +31,7 @@ const FivePillarsSection = () => {
                           <div className="grid" data-scroll-reveal="enter bottom move 50px over 1.0s after 0.2s">
                             <div className="pilars-item">
                               <div className="pilarts-img">
-                                <img src="/path/to/pilar-1.jpg" alt="" />
+                                <img src={pilar1} alt="" />
                               </div>
                               <div className="pilars-text">
                                 <h2>Shahadah</h2>
@@ -39,7 +43,7 @@ const FivePillarsSection = () => {
                           <div className="grid" data-scroll-reveal="enter bottom move 50px over 1.0s after 0.4s">
                             <div className="pilars-item">
                               <div className="pilarts-img">
-                                <img src="/path/to/pilar-22.jpg" alt="" />
+                                <img src={pilar2} alt="" />
                               </div>
                               <div className="pilars-text">
                                 <h2>Salah</h2>
@@ -51,7 +55,7 @@ const FivePillarsSection = () => {
                           <div className="grid" data-scroll-reveal="enter bottom move 50px over 1.0s after 0.6s">
                             <div className="pilars-item">
                               <div className="pilarts-img">
-                                <img src="/path/to/pilar-3.jpg" alt="" />
+                                <img src={pilar3} alt="" />
                               </div>
                               <div className="pilars-text">
                                 <h2>Sawm</h2>
@@ -63,7 +67,7 @@ const FivePillarsSection = () => {
                           <div className="grid" data-scroll-reveal="enter bottom move 50px over 1.0s after 0.8s">
                             <div className="pilars-item">
                               <div className="pilarts-img">
-                                <img src="/path/to/pilar-4.jpg" alt="" />
+                                <img src={pilar4} alt="" />
                               </div>
                               <div className="pilars-text">
                                 <h2>Zakah</h2>
@@ -75,7 +79,7 @@ const FivePillarsSection = () => {
                           <div className="grid" data-scroll-reveal="enter bottom move 50px over 1.0s after 1.0s">
                             <div className="pilars-item">
                               <div className="pilarts-img">
-                                <img src="/path/to/pilar-5.jpg" alt="" />
+                                <img src={pilar5} alt="" />
                               </div>
                               <div className="pilars-text">
                                 <h2>Hajj</h2>

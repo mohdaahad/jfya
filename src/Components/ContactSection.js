@@ -20,7 +20,7 @@ const ContactSection = () => {
 
         <div className="row">
           {/* Contact Map */}
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -30,15 +30,15 @@ const ContactSection = () => {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
-                  src="https://maps.google.com/maps?width=326&amp;height=321&amp;hl=en&amp;q=islamnager saharanpur&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=R9VW+3PH,%20Islam%20Nagar,%20Uttar%20Pradesh%20247451,%20India+(Madarsa%20Islamia%20Arbia%20Darul%20Ulom%20Muhammdia)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                   title="Contact Map"
                 ></iframe>
               </div>
             </div>
           </div>
-
+       
           {/* Contact Form */}
-          <div className="col-lg-8 col-md-6 col-sm-12">
+          {/* <div className="col-lg-8 col-md-6 col-sm-12">
             <div className="contact-form">
               <form id="contact" action="" method="get">
                 <div className="row">
@@ -67,7 +67,7 @@ const ContactSection = () => {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

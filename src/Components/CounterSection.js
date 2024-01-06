@@ -8,7 +8,7 @@ const CounterSection = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="count-item decoration-bottom">
-                <strong>308</strong>
+                <strong>201</strong>
                 <span>Student</span>
               </div>
             </div>
@@ -26,8 +26,8 @@ const CounterSection = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="count-item">
-                <strong>7</strong>
-                <span>Member</span>
+                <strong>11</strong>
+                <span>Members of Committee</span>
               </div>
             </div>
           </div>

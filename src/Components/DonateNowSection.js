@@ -1,6 +1,10 @@
 import React from 'react';
-
+// import { Modal, Button } from 'react-bootstrap';
 const DonateNowSection = () => {
+  // const [showModal, setShowModal] = useState(false);
+
+  // const handleShow = () => setShowModal(true);
+  // const handleClose = () => setShowModal(false);
   return (
     <section className="section colored" id="donate-now">
       <div className="container">
@@ -13,7 +17,7 @@ const DonateNowSection = () => {
           </div>
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
-              <p>Appreciatively, we acknowledge you for your charitable sustenance to Name Of Madrasa</p>
+              <p>Appreciatively, we acknowledge you for your charitable sustenance to Madrasa Jaima Arabia Daral Uloom Muhammadiya</p>
             </div>
           </div>
         </div>
@@ -26,19 +30,17 @@ const DonateNowSection = () => {
               <div className="pricing-header">
                 <h3 className="pricing-title">Zakat Appeal</h3>
               </div>
-              <div className="pricing-body">
+              {/* <div className="pricing-body">
                 <div className="price-wrapper">
                   <span className="currency">$</span>
                   <span className="price">14.50</span>
                   <span className="period">Raised</span>
                 </div>
-                <ul className="list">
-                  <li className="active">Goal:$122.50</li>
-                </ul>
+               
               </div>
               <div className="pricing-footer">
-                <a href="#" data-target="#exampleModalCenter1" type="button" data-toggle="modal" className="main-button">Donate Now</a>
-              </div>
+                <a href="#"  onClick={handleShow}  type="button" data-toggle="modal" className="main-button">Donate Now</a>
+              </div> */}
             </div>
           </div>
           {/* Pricing Item End */}
@@ -49,19 +51,17 @@ const DonateNowSection = () => {
               <div className="pricing-header">
                 <h3 className="pricing-title">Sadaqah Jariyah</h3>
               </div>
-              <div className="pricing-body">
+              {/* <div className="pricing-body">
                 <div className="price-wrapper">
                   <span className="currency">$</span>
                   <span className="price">21.50</span>
                   <span className="period">Raised</span>
                 </div>
-                <ul className="list">
-                  <li className="active">Goal:$130.50</li>
-                </ul>
+                
               </div>
               <div className="pricing-footer">
                 <a href="#" data-target="#exampleModalCenter" type="button" data-toggle="modal" className="main-button">Donate Now</a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Pricing Item End */}
@@ -72,24 +72,31 @@ const DonateNowSection = () => {
               <div className="pricing-header">
                 <h3 className="pricing-title">Al Imdaad</h3>
               </div>
-              <div className="pricing-body">
+              {/* <div className="pricing-body">
                 <div className="price-wrapper">
                   <span className="currency">$</span>
                   <span className="price">42.00</span>
                   <span className="period">Raised</span>
                 </div>
-                <ul className="list">
-                  <li className="active">Goal:$330.50</li>
-                </ul>
+              
               </div>
               <div className="pricing-footer">
                 <a href="#" data-target="#exampleModalCenter2" type="button" data-toggle="modal" className="main-button">Donate Now</a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Pricing Item End */}
         </div>
       </div>
+      {/* <Modal show={showModal} onHide={handleClose} centered>
+        <Modal.Header closeButton style={{ backgroundColor: '#7f0dff' }}>
+          <Modal.Title className="text-light">Zakat Appeal</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="d-flex justify-content-center">
+          <img style={{ width: '200px' }} src="static/account/image/qr.png" alt="" />
+        </Modal.Body>
+       
+      </Modal> */}
     </section>
   );
 };

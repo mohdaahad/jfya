@@ -1,6 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import $ from 'jquery';
+import work1 from "../image/logo.png";
 
 const Header = () => {
+  useEffect(() => {
+
+    // Menu Dropdown Toggle
+    $(".menu-trigger").on('click', function() {  
+      console.log("Clicked");
+      $(this).toggleClass('active');
+      $('.header-area .nav').slideToggle(200);
+    });
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      $(".menu-trigger").off('click');
+    };
+  }, []); // The empty dependency array ensures that this effect runs only once
+
   return (
     <>
       {/* <div id="preloader">
@@ -9,10 +26,8 @@ const Header = () => {
           <div></div>
           <div></div>
         </div>
-      </div> */}
-      {/* Preloader End */}
-
-      {/* Header Area Start */}
+      </div>  */}
+ 
       <header className="header-area header-sticky">
         <div className="container">
           <div className="row">
@@ -20,7 +35,7 @@ const Header = () => {
               <nav className="main-nav">
                 {/* Logo Start */}
                 <a href="#" className="logo">
-                  {/* <img src="{% static 'account/image/Madrasha.jpg' %}" alt="Softy Pinko"/> */}Logo of Madrasa
+                <img src={work1} alt="" />
                 </a>
                 {/* Logo End */}
                 {/* Menu Start */}

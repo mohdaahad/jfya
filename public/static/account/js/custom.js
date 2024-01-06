@@ -6,18 +6,9 @@
 	mobileNav();
 
 
-	// Scroll animation init
-	window.sr = new scrollReveal();
 	
-
-	// Menu Dropdown Toggle
-	if($('.menu-trigger').length){
-		$(".menu-trigger").on('click', function() {	
-			$(this).toggleClass('active');
-			$('.header-area .nav').slideToggle(200);
-		});
-	}
-
+	
+	
 
 	// Menu elevator animation
 	$('a[href*=\\#]:not([href=\\#])').on('click', function() {

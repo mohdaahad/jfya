@@ -1,5 +1,8 @@
 import React from 'react';
-
+import t1 from "../image/arif.jpeg";
+import t2 from "../image/Mohd Haseen.jpeg";
+import t3 from "../image/mo arif.jpeg";
+import testimonial from "../image/testimonial-icon.png";
 const TestimonialsSection = () => {
   return (
     <section className="section" id="testimonials">
@@ -24,14 +27,14 @@ const TestimonialsSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="team-item">
               <div className="team-content">
-                <i><img src="{% static 'account/image/testimonial-icon.png' %}" alt="" /></i>
-                <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                <i><img src={testimonial} alt="" /></i>
+                <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
                 <div className="user-image">
-                  <img style={{ width: '67px' }} src="{% static 'account/image/logo.jpg' %}" alt="" />
+                  <img style={{ width: '67px' }} src={t1} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Catherine Soft</h3>
-                  <span>Managing Director</span>
+                  <h3 className="user-name">Mo Arif</h3>
+                  <span>Businessman(Goldsmith)</span>
                 </div>
               </div>
             </div>
@@ -42,14 +45,14 @@ const TestimonialsSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="team-item">
               <div className="team-content">
-                <i><img src="{% static 'account/image/testimonial-icon.png' %}" alt="" /></i>
+                <i><img src={testimonial} alt="" /></i>
                 <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
                 <div className="user-image">
-                  <img style={{ width: '67px' }} src="{% static 'account/image/logo.jpg' %}" alt="" />
+                  <img style={{ width: '67px' }} src={t2} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Kelvin Wood</h3>
-                  <span>Digital Marketer</span>
+                  <h3 className="user-name">Mohd Haseen</h3>
+                  <span>Businessman</span>
                 </div>
               </div>
             </div>
@@ -60,14 +63,14 @@ const TestimonialsSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="team-item">
               <div className="team-content">
-                <i><img src="{% static 'account/image/testimonial-icon.png' %}" alt="" /></i>
+                <i><img src={testimonial} alt="" /></i>
                 <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
                 <div className="user-image">
-                  <img style={{ width: '67px' }} src="{% static 'account/image/logo.jpg' %}" alt="" />
+                  <img style={{ width: '67px' }} src={t3} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">David Martin</h3>
-                  <span>Website Manager</span>
+                  <h3 className="user-name">Mohd Arif</h3>
+                  <span>Mohtameem Mumbai Madarsa</span>
                 </div>
               </div>
             </div>

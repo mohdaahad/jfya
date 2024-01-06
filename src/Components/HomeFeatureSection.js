@@ -1,5 +1,7 @@
 import React from 'react';
-
+import quran from "../image/quran.png";
+import hadith from "../image/hadith.png";
+import namaz from "../image/namaz.png";
 const HomeFeatureSection = () => {
   return (
     <section className="section home-feature">
@@ -11,11 +13,11 @@ const HomeFeatureSection = () => {
               <div className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                 <div className="features-small-item">
                   <div className="icon">
-                    <i><img src="{% static 'account/image/quran.png' %}" alt="" /></i>
+                    <i><img src={quran} alt="" /></i>
                   </div>
                   <h5 className="features-title">Quran</h5>
-                  <p>Customize anything in this template to fit your website needs</p>
-                  <a href="#" className="main-button">Read More</a>
+                  <p>As the ultimate source of divine guidance in Islam, the Quran serves as a timeless manual for personal development, fostering a harmonious society built on justice, compassion, and the pursuit of knowledge.</p>
+                  {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>
               {/* Features Small Item End */}
@@ -24,11 +26,11 @@ const HomeFeatureSection = () => {
               <div className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                 <div className="features-small-item">
                   <div className="icon">
-                    <i><img src="{% static 'account/image/hadith.png' %}" alt="" /></i>
+                    <i><img src={hadith} alt="" /></i>
                   </div>
                   <h5 className="features-title">Hadith</h5>
-                  <p>Contact us immediately if you have a question in mind</p>
-                  <a href="#" className="main-button">Read More</a>
+                  <p>Through meticulous preservation and transmission, Hadith plays a pivotal role in shaping Islamic jurisprudence and fostering a deep understanding of Prophet Muhammad's exemplary life among Muslims worldwide.</p>
+                  {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>
               {/* Features Small Item End */}
@@ -37,11 +39,11 @@ const HomeFeatureSection = () => {
               <div className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                 <div className="features-small-item">
                   <div className="icon">
-                    <i><img src="{% static 'account/image/namaz.png' %}" alt="" /></i>
+                    <i><img src={namaz} alt="" /></i>
                   </div>
                   <h5 className="features-title">Namaz</h5>
-                  <p>You just need to tell your friends about our free templates</p>
-                  <a href="#" className="main-button">Read More</a>
+                  <p>Namaz, or Islamic prayer, is a sacred ritual performed by Muslims to connect with Allah. It involves specific physical postures and recitations, fostering spiritual discipline and a sense of devotion.</p>
+                  {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>
               {/* Features Small Item End */}

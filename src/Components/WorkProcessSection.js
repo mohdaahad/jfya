@@ -1,5 +1,5 @@
 import React from 'react';
-
+import work1 from "../image/work-process-item-01.png";
 const WorkProcessSection = () => {
   return (
     <section className="mini" id="work-process">
@@ -8,8 +8,8 @@ const WorkProcessSection = () => {
           <div className="row">
             <div className="offset-lg-3 col-lg-6">
               <div className="info">
-                <h1>Work Process</h1>
-                <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
+                <h1>Education we are providing</h1>
+                <p>Empowering minds with knowledge, Madrasa fosters a holistic education that blends academic excellence with moral values for a brighter future.</p>
               </div>
             </div>
           </div>
@@ -17,45 +17,45 @@ const WorkProcessSection = () => {
           {/* Mini Box Start */}
           <div className="row">
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Get Ideas</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Quran</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Sketch Up</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Hadith</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Discuss</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Urdu</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Revise</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Math & Scince</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Approve</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Hindi & English</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="#" className="mini-box">
-                <i><img src="{% static 'account/image/work-process-item-01.png' %}" alt="" /></i>
-                <strong>Launch</strong>
-                <span>Godard pabst prism fam cliche.</span>
+              <a href="http://localhost:3000/" className="mini-box">
+                <i><img src={work1} alt="" /></i>
+                <strong>Arbi</strong>
+                {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
           </div>
