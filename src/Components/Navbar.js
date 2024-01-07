@@ -20,13 +20,13 @@ const Header = () => {
 
   return (
     <>
-      <div id="preloader">
+      {/* <div id="preloader">
         <div className="jumper">
           <div></div>
           <div></div>
           <div></div>
         </div>
-      </div> 
+      </div>  */}
  
       <header className="header-area header-sticky">
         <div className="container">
