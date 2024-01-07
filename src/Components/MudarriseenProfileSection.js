@@ -131,8 +131,8 @@ const MudarriseenProfileSection = () => {
               <div className="card-container">
                 <img className="round" src={m4} alt="user" />
                 <h3>Pavnesh Kumar (B.Ed)</h3>
-                <h6>saharanpur</h6>
-                <p>Math & Scince</p>
+                <h6>Saharanpur</h6>
+                <p>Math & Science</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
                     <li className="icon facebook">

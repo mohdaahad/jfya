@@ -17,42 +17,42 @@ const WorkProcessSection = () => {
           {/* Mini Box Start */}
           <div className="row">
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
                 <strong>Quran</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
                 <strong>Hadith</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
                 <strong>Urdu</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
-                <strong>Math & Scince</strong>
+                <strong>Math & Science</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
                 <strong>Hindi & English</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-              <a href="http://localhost:3000/" className="mini-box">
+              <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
                 <strong>Arbi</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}

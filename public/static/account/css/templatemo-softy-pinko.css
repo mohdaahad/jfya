@@ -1927,11 +1927,24 @@ preloader
 .mapouter{position:relative;text-align:right;width:100%;height:230px;margin-bottom:20px;box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);border-radius: 30px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:321px;}.gmap_iframe {height:880px!important;border-radius: 30px;}
 
 .img-thumbnail{
-  width: 296px;
+  width: 100%;
   height: 221px !important;
   object-fit: cover;
 }
 .hhc{
 color: black !important;
 margin-left:10px ;
+}
+
+.modal-body{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+ 
+ 
+}
+.modal-body img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

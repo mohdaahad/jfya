@@ -45,7 +45,7 @@ const GallerySection = () => {
         <div className="row">
           {images.map((image, index) => (
             <div key={index} className="col-lg-3 col-md-4 col-xs-6 thumb" data-scroll-reveal="enter bottom move 50px over 0.8s after 0.1s">
-              <a className="thumbnail" href="http://localhost:3000/" onClick={() => openModal(index)}>
+              <a className="thumbnail" href="#" onClick={() => openModal(index)}>
                 <img className="img-thumbnail" src={image} alt={`Gallery ${index + 1}`} />
               </a>
             </div>

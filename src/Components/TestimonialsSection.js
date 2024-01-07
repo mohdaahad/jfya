@@ -28,9 +28,7 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p>Alhamdulillah madrasa haza me aehqar ko allah ne hazri ka maoqa inaayat farmaya
-Taleem ka bhi nizam dekha dono taleemo ka nizam asri bhi or dini bhi azizam qari mohammad shamshad husne usloob ke sath chala rahe hai dekh kar dil bahot khush huwa allah azizam ki mehnato wa kawisho ko qubool kare or madrasa haza ko din doguni raat choguni taraqqi ata farmae
-Mufti mohammad tarique saqibi. Mumbai Maharashtra</p>
+                <p>Alhamdulillah, madrasa haza mein aehqar ko Allah ne hazri ka maoqa inaayat farmaya. Qari Mohammad Shamshad husne usloob ke sath chala rahe hain, dekh kar dil bahot khush hua. Allah Azizam ki mehnato wa kawisho ko qubool kare or madrasa haza ko din doguni raat choguni taraqqi ata farmae. Mufti Mohammad Tarique Saqibi.</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t1} alt="" />
                 </div>
