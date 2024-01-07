@@ -28,7 +28,9 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                <p>Alhamdulillah madrasa haza me aehqar ko allah ne hazri ka maoqa inaayat farmaya
+Taleem ka bhi nizam dekha dono taleemo ka nizam asri bhi or dini bhi azizam qari mohammad shamshad husne usloob ke sath chala rahe hai dekh kar dil bahot khush huwa allah azizam ki mehnato wa kawisho ko qubool kare or madrasa haza ko din doguni raat choguni taraqqi ata farmae
+Mufti mohammad tarique saqibi. Mumbai Maharashtra</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t1} alt="" />
                 </div>
@@ -46,7 +48,7 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                <p> मैं इस्लामनगर से हूँ और मैं मदरसे गया। मैंने जाकर मदरसे का तालिमी निजाम देखा तो, माशा अल्लाह, तबियत बहुत खुश हुई। दीनी तालीम के साथ-साथ दुनियावी तालीम का जो निजाम देखा तो, रूह खुश हो गई। तालीम का अंदाज बहुत पसंद आया। मैंने फिर अपने भांजे और भतीजे का दाखिला यहीं पर कराया है। मैं मदरसे के निजाम से बहुत खुश हूं। अल्लाह तआला मुजीब तरक्की अदा करें, आमीन। सुम्मा आमीन।</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t2} alt="" />
                 </div>
@@ -64,7 +66,9 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
+                <p>الحمدللہ مدرسہ ھذا میں احقر کو اللہ نے حاضری کا موقع عنایت فرمایا
+تعلیم کا بھی نظام دیکھا دونوں تعلیموں کا نظام عصری بھی اور دینی بھی عزیزم قاری محمد شمشاد حسن اسلوب کے ساتھ چلا رہے ہیں دیکھ کر دل بہت خوش ہوا اللہ عزیزم کی محنتوں و کاوشوں کو قبول کرے اور مدرسہ ھذا کو دن دوگنی رات چوگنی ترقی عطا فرمائے
+مفتی محمد طارق ثاقبی ممبئی مہاراشٹر</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t3} alt="" />
                 </div>
