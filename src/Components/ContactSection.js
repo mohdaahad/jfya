@@ -30,7 +30,7 @@ const ContactSection = () => {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
-                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=R9VW+3PH,%20Islam%20Nagar,%20Uttar%20Pradesh%20247451,%20India+(Madarsa%20Islamia%20Arbia%20Darul%20Ulom%20Muhammdia)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.849551329015!2d77.80232092703982!3d29.955103115022695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb7eedc1a85cf%3A0xf5a439116fd03ac0!2sJamia%20faize%20yunus%20Arabia!5e0!3m2!1sen!2sin!4v1710074746284!5m2!1sen!2sin"
                   title="Contact Map"
                 ></iframe>
               </div>

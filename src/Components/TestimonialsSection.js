@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p>Alhamdulillah, madrasa haza mein aehqar ko Allah ne hazri ka maoqa inaayat farmaya. Qari Mohammad Shamshad husne usloob ke sath chala rahe hain, dekh kar dil bahot khush hua. Allah Azizam ki mehnato wa kawisho ko qubool kare or madrasa haza ko din doguni raat choguni taraqqi ata farmae. Mufti Mohammad Tarique Saqibi.</p>
+                <p>Alhamdulillah, madrasa haza mein aehqar ko Allah ne hazri ka maoqa inaayat farmaya. Husne usloob ke sath chala rahe hain, dekh kar dil bahot khush hua. Allah Azizam ki mehnato wa kawisho ko qubool kare or madrasa haza ko din doguni raat choguni taraqqi ata farmae. Ye taraqqi ek nayi roshni ka daur hai.</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t1} alt="" />
                 </div>
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
             <div className="team-item">
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
-                <p> मैं इस्लामनगर से हूँ और मैं मदरसे गया। मैंने जाकर मदरसे का तालिमी निजाम देखा तो, माशा अल्लाह, तबियत बहुत खुश हुई। दीनी तालीम के साथ-साथ दुनियावी तालीम का जो निजाम देखा तो, रूह खुश हो गई। तालीम का अंदाज बहुत पसंद आया। मैंने फिर अपने भांजे और भतीजे का दाखिला यहीं पर कराया है। मैं मदरसे के निजाम से बहुत खुश हूं। अल्लाह तआला मुजीब तरक्की अदा करें, आमीन। सुम्मा आमीन।</p>
+                <p> मैं मदरसे गया। मैंने जाकर मदरसे का तालिमी निजाम देखा तो, माशा अल्लाह, तबियत बहुत खुश हुई। दीनी तालीम के साथ-साथ दुनियावी तालीम का जो निजाम देखा तो, रूह खुश हो गई। तालीम का अंदाज बहुत पसंद आया। मैंने फिर अपने भांजे और भतीजे का दाखिला यहीं पर कराया है। मैं मदरसे के निजाम से बहुत खुश हूं। अल्लाह तआला मुजीब तरक्की अदा करें, आमीन। सुम्मा आमीन।</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t2} alt="" />
                 </div>
@@ -65,8 +65,7 @@ const TestimonialsSection = () => {
               <div className="team-content">
                 <i><img src={testimonial} alt="" /></i>
                 <p>الحمدللہ مدرسہ ھذا میں احقر کو اللہ نے حاضری کا موقع عنایت فرمایا
-تعلیم کا بھی نظام دیکھا دونوں تعلیموں کا نظام عصری بھی اور دینی بھی عزیزم قاری محمد شمشاد حسن اسلوب کے ساتھ چلا رہے ہیں دیکھ کر دل بہت خوش ہوا اللہ عزیزم کی محنتوں و کاوشوں کو قبول کرے اور مدرسہ ھذا کو دن دوگنی رات چوگنی ترقی عطا فرمائے
-مفتی محمد طارق ثاقبی ممبئی مہاراشٹر</p>
+تعلیم کا بھی نظام دیکھا دونوں تعلیموں کا نظام عصری بھی اور دینی بھی عزیزم اسلوب کے ساتھ چلا رہے ہیں دیکھ کر دل بہت خوش ہوا اللہ عزیزم کی محنتوں و کاوشوں کو قبول کرے اور مدرسہ ھذا کو دن دوگنی رات چوگنی ترقی عطا فرمائے</p>
                 <div className="user-image">
                   <img style={{ width: '67px' }} src={t3} alt="" />
                 </div>

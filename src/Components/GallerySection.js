@@ -40,7 +40,11 @@ const GallerySection = () => {
     <section className="section" id="gallery">
       <div className="container">
         {/* ... (your existing code) */}
-
+        <div className="elementor-widget-container">
+                    <div className="wpo-section-title">
+                     <h2>Explore Our Gallery</h2>
+                    </div>
+                  </div>
         {/* Gallery Items */}
         <div className="row">
           {images.map((image, index) => (

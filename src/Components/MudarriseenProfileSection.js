@@ -25,13 +25,49 @@ const MudarriseenProfileSection = () => {
         {/* Section Title End */}
 
         <div className="row">
+
+          
+          {/* Mudarriseen Item Start */}
+          <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+            <div >
+              <div className="card-container">
+                <img className="round" src={m3} alt="user" />
+                <h3>Molana Muhammad Irshad </h3>
+                <h6>Sisaona</h6>
+                <p>Mohtameem</p>
+                {/* <div className="buttons">
+                  <ul className="wrapper">
+                    <li className="icon facebook">
+                      <span className="tooltip">Facebook</span>
+                      <span><i className="fa fa-facebook"></i></span>
+                    </li>
+                    <li className="icon twitter">
+                      <span className="tooltip">Twitter</span>
+                      <span><i className="fa fa-twitter"></i></span>
+                    </li>
+                    <li className="icon instagram">
+                      <span className="tooltip">Instagram</span>
+                      <span><i className="fa fa-instagram"></i></span>
+                    </li>
+                    <li className="icon github">
+                      <span className="tooltip">Github</span>
+                      <span><i className="fa fa-github"></i></span>
+                    </li>
+                  </ul>
+                </div> */}
+              </div>
+            </div>
+          </div>
+
+
+          {/* Mudarriseen Item End */}
           {/* Mudarriseen Item Start */}
           <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
             <div >
               <div className="card-container">
                 <img className="round" src={m1} alt="user" />
                 <h3>Qari ahsan</h3>
-                <h6>Islamnagar</h6>
+                <h6>Sisaona</h6>
                 <p>Urdu</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
@@ -60,47 +96,13 @@ const MudarriseenProfileSection = () => {
 
      
 
-          {/* Mudarriseen Item Start */}
-          <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-            <div >
-              <div className="card-container">
-                <img className="round" src={m3} alt="user" />
-                <h3>Molana Muhammad Irshad </h3>
-                <h6>Islamnagar</h6>
-                <p>Mohtameem</p>
-                {/* <div className="buttons">
-                  <ul className="wrapper">
-                    <li className="icon facebook">
-                      <span className="tooltip">Facebook</span>
-                      <span><i className="fa fa-facebook"></i></span>
-                    </li>
-                    <li className="icon twitter">
-                      <span className="tooltip">Twitter</span>
-                      <span><i className="fa fa-twitter"></i></span>
-                    </li>
-                    <li className="icon instagram">
-                      <span className="tooltip">Instagram</span>
-                      <span><i className="fa fa-instagram"></i></span>
-                    </li>
-                    <li className="icon github">
-                      <span className="tooltip">Github</span>
-                      <span><i className="fa fa-github"></i></span>
-                    </li>
-                  </ul>
-                </div> */}
-              </div>
-            </div>
-          </div>
-
-
-          {/* Mudarriseen Item End */}
 
           <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
             <div >
               <div className="card-container">
                 <img className="round" src={m4} alt="user" />
                 <h3>Qari juned</h3>
-                <h6>Saharanpur</h6>
+                <h6>Sisaona</h6>
                 <p>Math & Science</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
