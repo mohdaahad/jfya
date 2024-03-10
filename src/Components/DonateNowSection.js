@@ -17,7 +17,7 @@ const DonateNowSection = () => {
           </div>
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
-              <p>Appreciatively, we acknowledge you for your charitable sustenance to Madrasa Jaima Arabia Daral Uloom Muhammadiya</p>
+              <p>Appreciatively, we acknowledge you for your charitable sustenance to Jamin Faize Yunus Arabia</p>
             </div>
           </div>
         </div>

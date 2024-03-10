@@ -9,7 +9,7 @@ const WelcomeArea = () => {
         <div className="container">
           <div className="row">
             <div className="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-              <h1> <strong>Madrasa</strong> Jaima Arabia Daral Uloom Muhammadiya</h1>
+              <h1>Jamin Faize Yunus Arabia</h1>
               <p>مدرسہ جامعہ عربیہ دار العلوم المحمدیہ اسلامی تعلیمات، قرآنی مطالعات، اور حدیث کے میدان میں متخصص ہے۔ یہاں عربی، اردو، اور انگریزی کے علاوہ دنیاوی موضوعات میں بھی تعلیمات دی جاتی ہیں، جو طلباء کو مکمل اور تنوع پسند تعلیمات فراہم کرتی ہے۔ اس کا مقصد طلباء کو اسلامی اصولوں پر مضبوط بنیاد فراہم کرکے انہیں دینی اور دنیاوی حیثیتوں میں موفقیت حاصل کرنے میں رہنمائی کرنا ہے۔</p>
         
             </div>
