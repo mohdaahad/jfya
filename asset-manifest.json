@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jfya/static/css/main.f96f07a4.css",
-    "main.js": "/jfya/static/js/main.5d1e5d96.js",
+    "main.js": "/jfya/static/js/main.4452f042.js",
     "static/js/787.d5fa4d18.chunk.js": "/jfya/static/js/787.d5fa4d18.chunk.js",
     "static/media/m4.jpeg": "/jfya/static/media/m4.e5adcc84a7522d28e172.jpeg",
     "static/media/m5.jpeg": "/jfya/static/media/m5.6da5d430c95eed9bfcbe.jpeg",
@@ -27,16 +27,16 @@
     "static/media/mistion.jpg": "/jfya/static/media/mistion.898781f00d1b00438e1e.jpg",
     "static/media/logo.jpeg": "/jfya/static/media/logo.d299cdbc0c8f095e2c38.jpeg",
     "static/media/m2.jpeg": "/jfya/static/media/m2.c778626689d2994c0de5.jpeg",
-    "static/media/logo.png": "/jfya/static/media/logo.cb343452405c567fe0b0.png",
+    "static/media/logo.png": "/jfya/static/media/logo.34bfe270b9c9e604f18d.png",
     "static/media/arif.jpeg": "/jfya/static/media/arif.e73c6c63581044e308ff.jpeg",
     "static/media/mo arif.jpeg": "/jfya/static/media/mo arif.4ad4db6ff2c18398b55c.jpeg",
     "index.html": "/jfya/index.html",
     "main.f96f07a4.css.map": "/jfya/static/css/main.f96f07a4.css.map",
-    "main.5d1e5d96.js.map": "/jfya/static/js/main.5d1e5d96.js.map",
+    "main.4452f042.js.map": "/jfya/static/js/main.4452f042.js.map",
     "787.d5fa4d18.chunk.js.map": "/jfya/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f96f07a4.css",
-    "static/js/main.5d1e5d96.js"
+    "static/js/main.4452f042.js"
   ]
 }
