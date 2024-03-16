@@ -15,6 +15,7 @@ import MudarriseenProfileSection from "./Components/MudarriseenProfileSection";
 import FivePillarsSection from "./Components/FivePillarsSection";
 import GallerySection from "./Components/GallerySection";
 import ContactSection from "./Components/ContactSection";
+import VerifidSection from "./Components/Verifid";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <CounterSection />
       <MudarriseenProfileSection/>
       <FivePillarsSection/>
+      <VerifidSection/>
       <GallerySection/>
       <ContactSection/>
       

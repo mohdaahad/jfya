@@ -16,7 +16,9 @@ const HomeFeatureSection = () => {
                     <i><img src={quran} alt="" /></i>
                   </div>
                   <h5 className="features-title">Quran</h5>
-                  <p>As the ultimate source of divine guidance in Islam, the Quran serves as a timeless manual for personal development, fostering a harmonious society built on justice, compassion, and the pursuit of knowledge.</p>
+                  <p>
+
+                  The Quran is like a guidebook for Muslims, offering timeless wisdom for personal growth and helping to create a fair, caring, and knowledgeable society, serving as a beacon of light for individuals seeking guidance in their lives.</p>
                   {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>
@@ -29,7 +31,7 @@ const HomeFeatureSection = () => {
                     <i><img src={hadith} alt="" /></i>
                   </div>
                   <h5 className="features-title">Hadith</h5>
-                  <p>Through meticulous preservation and transmission, Hadith plays a pivotal role in shaping Islamic jurisprudence and fostering a deep understanding of Prophet Muhammad's exemplary life among Muslims worldwide.</p>
+                  <p>Hadith, which are the sayings and actions of Prophet Muhammad, are incredibly important in Islam. They help shape Islamic law and give Muslims around the world a deeper understanding of how the Prophet lived his life.</p>
                   {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>
@@ -42,7 +44,12 @@ const HomeFeatureSection = () => {
                     <i><img src={namaz} alt="" /></i>
                   </div>
                   <h5 className="features-title">Namaz</h5>
-                  <p>Namaz, or Islamic prayer, is a sacred ritual performed by Muslims to connect with Allah. It involves specific physical postures and recitations, fostering spiritual discipline and a sense of devotion.</p>
+                  <p>Namaz, also known as Islamic prayer, is a special ritual that Muslims perform to connect with Allah. It includes certain physical movements and prayers, which help to create spiritual discipline and a strong sense of devotion.
+
+
+
+
+</p>
                   {/* <a href="#" className="main-button">Read More</a> */}
                 </div>
               </div>

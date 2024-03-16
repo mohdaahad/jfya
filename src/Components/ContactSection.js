@@ -13,7 +13,8 @@ const ContactSection = () => {
           </div>
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
-              <p>Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.</p>
+              <p>If someone wishes to contact us, they can reach out to us at the following address:
+Village Sisaona, Bhagwanpur, Rudki, Haridwar, Uttarakhand, 247661.</p>
             </div>
           </div>
         </div>

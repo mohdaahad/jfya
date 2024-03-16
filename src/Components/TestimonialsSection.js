@@ -16,7 +16,7 @@ const TestimonialsSection = () => {
           </div>
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
-              <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
+              <p>Many esteemed guests have visited Madrasa, sharing their positive impressions.</p>
             </div>
           </div>
         </div>
@@ -33,8 +33,9 @@ const TestimonialsSection = () => {
                   <img style={{ width: '67px' }} src={t1} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Mo Arif</h3>
-                  <span>Businessman(Goldsmith)</span>
+                  <h3 className="user-name">Mufti Sajid</h3>
+                  <span>Ustad Hadith & Editor Mahana Saday-E-Huq</span>
+                  <span>Madarasha Asraful Uloom Gangoh(S.R.E UP)</span>
                 </div>
               </div>
             </div>
@@ -51,8 +52,9 @@ const TestimonialsSection = () => {
                   <img style={{ width: '67px' }} src={t2} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Mohd Haseen</h3>
-                  <span>Businessman</span>
+                  <h3 className="user-name">Inamullah Qasmi</h3>
+                  <span>Ustad Hadith & Khalifa Sheikh Yunus</span>
+                  <span>Madarasha Al-Mahdul-Islam(S.R.E UP)</span>
                 </div>
               </div>
             </div>
@@ -70,8 +72,9 @@ const TestimonialsSection = () => {
                   <img style={{ width: '67px' }} src={t3} alt="" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Mohd Arif</h3>
-                  <span>Mohtameem Mumbai Madarsa</span>
+                  <h3 className="user-name">Molana Jafer</h3>
+                  <span>Nazim Majahir Uloom &</span>
+                  <span>Nawasha Sheikh Jakariya(S.R.E)</span>
                 </div>
               </div>
             </div>

@@ -9,7 +9,8 @@ const WorkProcessSection = () => {
             <div className="offset-lg-3 col-lg-6">
               <div className="info">
                 <h1>Education we are providing</h1>
-                <p>Empowering minds with knowledge, Madrasa fosters a holistic education that blends academic excellence with moral values for a brighter future.</p>
+                <p>
+Madrasa helps students learn important things and be good people by teaching them about different subjects and how to behave well. This helps them have a better future.</p>
               </div>
             </div>
           </div>
@@ -54,7 +55,7 @@ const WorkProcessSection = () => {
             <div className="col-lg-2 col-md-3 col-sm-6 col-6">
               <a href="#" className="mini-box">
                 <i><img src={work1} alt="" /></i>
-                <strong>Arbi</strong>
+                <strong>Arabi</strong>
                 {/* <span>Godard pabst prism fam cliche.</span> */}
               </a>
             </div>

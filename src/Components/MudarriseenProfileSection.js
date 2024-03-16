@@ -1,6 +1,6 @@
 import React from 'react';
 import m1 from "../image/m1.jpeg";
-import m2 from "../image/m2.jpeg";
+import m2 from "../image/m6.jpg";
 import m3 from "../image/m2.jpeg";
 import m4 from "../image/m4.jpeg";
 import m5 from "../image/m5.jpeg";
@@ -33,7 +33,6 @@ const MudarriseenProfileSection = () => {
               <div className="card-container">
                 <img className="round" src={m3} alt="user" />
                 <h3>Molana Muhammad Irshad </h3>
-                <h6>Sisaona</h6>
                 <p>Mohtameem</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
@@ -66,9 +65,8 @@ const MudarriseenProfileSection = () => {
             <div >
               <div className="card-container">
                 <img className="round" src={m1} alt="user" />
-                <h3>Qari ahsan</h3>
-                <h6>Sisaona</h6>
-                <p>Urdu</p>
+                <h3>Qari Ahsan</h3>
+                <p>Arabi(Najra)</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
                     <li className="icon facebook">
@@ -101,9 +99,8 @@ const MudarriseenProfileSection = () => {
             <div >
               <div className="card-container">
                 <img className="round" src={m4} alt="user" />
-                <h3>Qari juned</h3>
-                <h6>Sisaona</h6>
-                <p>Math & Science</p>
+                <h3>Qari Juned</h3>
+                <p>Arabi(Hifz)</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
                     <li className="icon facebook">
@@ -132,9 +129,8 @@ const MudarriseenProfileSection = () => {
             <div >
               <div className="card-container">
                 <img className="round" src={m5} alt="user" />
-                <h3>Qari murshid</h3>
-                <h6>Islamnagar</h6>
-                <p>Hindi & SST</p>
+                <h3>Qari Murshid</h3>
+                <p>Math & English</p>
                 {/* <div className="buttons">
                   <ul className="wrapper">
                     <li className="icon facebook">
@@ -158,17 +154,16 @@ const MudarriseenProfileSection = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+          <div className="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
             <div >
               <div className="card-container">
-                <img className="round" src={m6} alt="user" />
-                <h3>Shahreen Malik (BCA)</h3>
-                <h6>Islamnagar</h6>
-                <p>English</p>
+                <img className="round" src={m2} alt="user" />
+                <h3>Mo Mohsin</h3>
+                <p>Science & SST</p>
             
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
